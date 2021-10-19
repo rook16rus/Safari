@@ -179,3 +179,45 @@ ul {
   line-height: 1.3;
 }
 
+.popular__item {
+
+  &:nth-child(1) {
+    background: url("../images/popular-1.jpg") no-repeat center;
+  }
+
+  &:nth-child(2) {
+    background: url("../images/popular-2.jpg") no-repeat center;
+  }
+
+  &:nth-child(3) {
+    background: url("../images/popular-3.jpg") no-repeat center;
+  }
+
+  &:nth-child(4) {
+    background: url("../images/popular-4.jpg") no-repeat center;
+  }
+
+  &:nth-child(5) {
+    background: url("../images/popular-5.jpg") no-repeat center;
+  }
+
+  &:nth-child(6) {
+    background: url("../images/popular-6.jpg") no-repeat center;
+  }
+
+  &:nth-child(7) {
+    background: url("../images/popular-7.jpg") no-repeat center;
+  }
+
+  &:nth-child(8) {
+    background: url("../images/popular-8.jpg") no-repeat center;
+  }
+
+  &:nth-child(9) {
+    background: url("../images/popular-9.jpg") no-repeat center;
+  }
+
+  &:nth-child(10) {
+    background: url("../images/popular-10.jpg") no-repeat center;
+  }
+}
