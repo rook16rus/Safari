@@ -320,3 +320,46 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
+.gallery {
+  padding: 49px 0 105px;
+  background-color: $brown;
+  color: #fff;
+}
+
+.gallery__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-right: 160px;
+}
+
+.gallery__link {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: underline;
+}
+
+.gallery__item-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.slick-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: -85px;
+  right: 0;
+
+  &--prev {
+    right: 60px;
+  }
+}
