@@ -364,3 +364,49 @@ ul {
   }
 }
 
+.tour {
+  padding: 100px 0;
+}
+
+.tour__title {
+  margin-bottom: 77px;
+}
+
+.tour__box {
+  column-count: 2;
+  column-gap: 46px;
+  border-bottom: 1px solid #D9D9DE;
+  padding-bottom: 50px;
+  margin-bottom: 44px;
+}
+
+.tour__text {
+  margin-bottom: 15px;
+
+  b {
+    font-weight: 700;
+  }
+}
+
+.tour__info {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 70px;
+}
+
+.tour__info-item {
+  font-family: 'Pt Serif', 'Georgia', serif;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 60px;
+  color: $brown;
+  text-align: center;
+}
+
+.tour__info-text {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+  color: $accent;
+}
